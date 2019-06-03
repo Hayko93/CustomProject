@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html, body {
+    background-image: url('http://www.el-tony.com/wp-content/uploads/2014/07/Mercedes-SLS-AMG-Open-Doors-Front-Fire-Abstract-Car-2014-HD-Wallpapers-design-by-Tony-Kokhan-www.el-tony.com_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
+    height: 780px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(6, 21, 34, 0.66) !important;
+}
+
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.card-header h3 {
+    color: white;
+}
+
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border: 0 !important;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.button-icon{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    left: 260px;
+    border: 5px;
+    border-radius: 5px;
+}
+
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}
+
+#file-input{
+    color: #ffd800;
+    height: 30px;
+    border: 5px;
+    border-radius: 5px;
+}
+
+#home-page-id{
+    color: blue;
+    position: relative;
+    left: 55px;
+    top: -20px;
+}
+
+#login-page-id{
+    color: blue;
+    position: relative;
+    right: 55px;
+    top: -44px;
+}
+#name-input{
+    border: 5px;
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+}
+#surname-input{
+    border: 5px;
+    border-radius: 5px;
+    width: 300px;
+    height:35px;
+}
+#email-input{
+    width: 300px;
+    height: 35px;
+    border: 5px;
+    border-radius: 5px;
+}
+#password-input{
+    border: 5px;
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+}
+#confirm-password-input{
+    border: 5px;
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+}
+#country-input{
+    width: 300px;
+    height: 35px;
+    border: 5px;
+    border-radius: 5px;
+}
+
